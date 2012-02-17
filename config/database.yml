@@ -20,7 +20,7 @@ development:
 #
 production:
   adapter: mysql
-  database: ronak_depot_final
+  database: ronak_depot_prod
   pool: 5
   timeout: 5000
 
