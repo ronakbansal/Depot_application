@@ -8,4 +8,6 @@ class ApplicationController < ActionController::Base
     session[:cart_id] = cart.id
     cart
   end
+before_filter :authenticate_user!
+
 end

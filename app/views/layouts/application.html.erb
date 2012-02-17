@@ -19,15 +19,12 @@
 <%= render @cart %>
 <% end %>
 <% end %>
-        <a href="http://localhost:3000/" >Home</a><br />
-        <a href="http://www..../faq" >Questions</a><br />
-        <a href="http://www..../news" >News</a><br />
-        <a href="http://www..../contact" >Contact</a><br />
+        <%= link_to 'Home', store_index_path %><br />
+       <br/>
         <br/>
-        <br/>
-        <a href="http://localhost:3000/orders" >Orders</a><br />
-        <a href="http://localhost:3000/products" >Products</a><br />
-        <a href="http://www..../news" >Users</a><br />
+        <%= link_to 'Orders', orders_path %><br />
+        <%= link_to 'Products',products_path %><br />
+        
  <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
 

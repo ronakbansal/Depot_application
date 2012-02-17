@@ -80,5 +80,6 @@ class CartsController < ApplicationController
       format.xml { head :ok}
     end
   end
- 
+ before_filter :authenticate_user!
+
 end
