@@ -18,9 +18,9 @@ development:
 #  pool: 5
 #  timeout: 5000
 #
-#production:
-#  adapter: jdbcmysql
-#  database: db/development.sqlite3_production
-#  pool: 5
-#  timeout: 5000
+production:
+  adapter: mysql
+  database: ronak_depot_final
+  pool: 5
+  timeout: 5000
 
