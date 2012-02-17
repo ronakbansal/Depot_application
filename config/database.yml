@@ -21,6 +21,8 @@ development:
 production:
   adapter: mysql
   database: ronak_depot_prod
+  username: root
+  password:
   pool: 5
   timeout: 5000
 
