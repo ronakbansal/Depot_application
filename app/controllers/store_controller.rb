@@ -3,7 +3,7 @@ class StoreController < ApplicationController
 @products = Product.all
 @cart = current_cart
   end
-before_filter :authenticate_user!
+# before_filter :authenticate_user!
 
 #user_signed_in?
 #
