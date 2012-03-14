@@ -6,6 +6,8 @@
 development:
   adapter: mysql
   database: ronak_depot_final
+  username: root
+  password:
   pool: 5
   timeout: 5000
 
