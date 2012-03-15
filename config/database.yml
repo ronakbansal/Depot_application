@@ -22,7 +22,7 @@ development:
 #
 production:
   adapter: mysql
-  database: ronak_depot_prod
+  database: ronak_depot_final
   username: root
   password:
   pool: 5
